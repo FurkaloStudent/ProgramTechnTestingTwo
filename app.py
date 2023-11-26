@@ -9,7 +9,7 @@ def home():
 
 @app.route('/test')
 def test_route():
-  return "Test Route"  
+  return "Test Route 2: Extra Testing"  
 
 @app.route('/add_item', methods=['POST'])
 def add_item_route():
